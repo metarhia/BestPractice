@@ -40,3 +40,10 @@
 | Async code     | Native Promise, async/await   | Rx.js, EventEmitter |                      | Async.js, bluebird, q, co |
 | Build          | Webpack                       |                | Gulp                      |                           |
 | Visualization  | D3                            |                |                           |                           |
+| Message Queue  |                               |                |                           |                           |
+| Mailing        |                               |                |                           |                           |
+| Security       |                               |                |                           |                           |
+| Message Queue  |                               |                |                           |                           |
+| Distributed    |                               |                |                           |                           |
+| Logging        |                               |                |                           |                           |
+| Telemetry      |                               |                |                           |                           |
