@@ -4,22 +4,22 @@
 | -------------- | ----------------------------- | -------------- | ------------------------- | ------------------------- |
 | Applied code   | JavaScript                    | Python, LISP   | TypeScript .ts, Java, C#, Go | Ruby, PHP, VB          |
 | Typings        | Metaschema, TypeScript .d.ts  |                | JSDoc                     |                           |
-| Linters        | Eslint, prettier, TypeScript  |                |                           |                           |
+| Linters        | Eslint, prettier, TypeScript  |                |                           | JSHint                    |
 | Runtime        | Node.js                       | Bun            |                           | Deno                      |
 | Server OS      | CentOS, Fedora, FreeBSD, Arch | Suse, RHEL, Debian | Ubuntu                | Windows                   |
 | Contracts      | Metaschema                    | OpenAPI, Swagger | SOAP, XML, gRPC, protobuf, GraphQL |                |
 | Cryptography   | Node.js crypto, openSSL       |                | bcrypt, argon2            |                           |
 | JS helpers     |                               | Core-js        | lodash, underscore        | jQuery, cheerio           |
 | Frameworks     | Fastify                       |                | Nest.js                   | connect, express, koa     |
-| App server     | Impress application server    |                | Loopback                  | Apollo server             |
+| App server     | Impress application server    |                | Loopback                  | Apollo server, IIS        |
 | Low-code       | Lowscript                     |                |                           | Node-RED                  |
-| Auth           | OAuth 2.0 + GoF: strategy     |                |                           | passport                  |
+| Auth           | OAuth 2.0 + GoF: strategy     |                |                           | passport, JWT             |
 | Templates      | Template strings, tickplate   |                |                           | EJS                       |
 | CPU intensive  | C, Rust, C++, WASM            |                | Java, C#                  |                           |
-| SQL database   | Postgres                      | SQLite, cassandra, DynamoDB, Elastic     | MySQL, Oracle, DB2 | MS SQL |
-| NoSQL          | Redis, Kafka                  |                | Memcached, MySQL          | Neo4j, MongoDB            |
+| SQL database   | Postgres                 | SQLite, cassandra, DynamoDB, Elastic | MySQL, Oracle, DB2, MariaDB | MS SQL |
+| NoSQL          | Redis, Kafka                  | Clickhouse     | Memcached                 | Neo4j, MongoDB            |
 | CI             | Github Actions                | Travis         | Jenkins                   |                           |
-| Process man.   | Docker                        | Kubernetes     |                           | Pm2, forever              |
+| Process man.   | Docker                        | k8s, terraform, ansible |                  | Pm2, forever              |
 | CDN            | Cloudflare, Nginx             |                |                           |                           |
 | Frontend       | React, Vue.js, Web components | Angular        |                           |                           |
 | Modules        | CommonJS, ESM, vm, metavm     |                | Inversify                 |                           |
@@ -31,7 +31,7 @@
 | HTTP Client    | Node.js fetch, undici         |                |                          | axios, node-fetch, request |
 | Management     | Github, Gitlab (projects, issues, kanban) | |                              | Jira, Trello              |
 | Repo hosting   | Github, Gitlab, npm           |                |                           | Bitbucket                 |
-| Work chat      | Telegram                      |                |                           | Teams, Slack              |
+| Work chat      | Telegram                      |                | Discord                   | Teams, Slack              |
 | Mobile         | Kotlin, Swift, PWA            |                |                           |                           |
 | File storage   | S3, MinIO                     |                |                           |                           |
 | Serverless     |                               | Cloudflare     | | AWS Lambda, Google cloud functions, Azure functions |
@@ -40,10 +40,11 @@
 | Async code     | Native Promise, async/await   | Rx.js, EventEmitter |                      | Async.js, bluebird, q, co |
 | Build          | Webpack                       |                | Gulp                      |                           |
 | Visualization  | D3                            |                |                           |                           |
-| Message Queue  |                               |                |                           |                           |
-| Mailing        |                               |                |                           |                           |
-| Security       |                               |                |                           |                           |
-| Message Queue  |                               |                |                           |                           |
-| Distributed    |                               |                |                           |                           |
-| Logging        |                               |                |                           |                           |
-| Telemetry      |                               |                |                           |                           |
+| Message Queue  | Redis                         | RabbitMQ       |                           | Azure, AWS SQS            |
+| Mailing        |                               | nodemailer     |                           |                           |
+| Security       | npm audit, snyk               |                |                           |                           |
+| Distributed    | SQRS, Event Sourcing, CRDT    | OT             | Akka                      |                           |
+| Logging        | metalog, pino                 |                |                           |                           |
+| Telemetry      | new relic                     |                |                           |                           |
+| DSL            | markdown, metavm, json5       |                |                           |                           |
+| Design         | Figma                         |                |                           |                           |
