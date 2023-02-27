@@ -24,14 +24,13 @@
 | Frontend       | React, Vue.js, Web components | Angular        |                           |                           |
 | Modules        | CommonJS, ESM, vm, metavm     |                | Inversify                 |                           |
 | Tests          | assert, node:test, Metatests  |                |                         | Mocha, Jest, Jasmine, Karma |
-| CMS            | Blogger                       | Wix            |                  | Magento, Wordpress, Joomla, Drupal |
+| CMS            | Blogger                       | Wix            |           | Magento, Wordpress, Joomla, Drupal, Tilda |
 | Multithreading | worker_threads, child_process |                |                           | cluster                   |
 | Async context  | closures, collections, async_hooks |           |                           | zone.js                   |
 | Date and Time  | ES6 + Intl                    |                |                           | moment.js                 |
 | HTTP Client    | Node.js fetch, undici         |                |                          | axios, node-fetch, request |
-| Issue tracking | Github, Gitlab                |                |                           | Jira                      |
+| Management     | Github, Gitlab (projects, issues, kanban) | |                              | Jira, Trello              |
 | Repo hosting   | Github, Gitlab, npm           |                |                           | Bitbucket                 |
-| Kanban         | Github, Gitlab                |                |                           | Trello                    |
 | Work chat      | Telegram                      |                |                           | Teams, Slack              |
 | Mobile         | Kotlin, Swift, PWA            |                |                           |                           |
 | File storage   | S3, MinIO                     |                |                           |                           |
@@ -40,4 +39,4 @@
 | Interactive    | Websocket, metacom, npm:ws    |                | jstp                      | socket.io                 |
 | Async code     | Native Promise, async/await   | Rx.js, EventEmitter |                      | Async.js, bluebird, q, co |
 | Build          | Webpack                       |                | Gulp                      |                           |
-| Vusualization  | D3                            |                |                           |                           |
+| Visualization  | D3                            |                |                           |                           |
