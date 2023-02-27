@@ -24,7 +24,7 @@
 | Frontend       | React, Vue.js, Web components | Angular        |                           |                           |
 | Modules        | CommonJS, ESM, vm, metavm     |                | Inversify                 |                           |
 | Tests          | assert, node:test, Metatests  |                |                         | Mocha, Jest, Jasmine, Karma |
-| CMS            | Blogger                       | Tilda, Wix     |                  | Magento, Wordpress, Joomla, Drupal |
+| CMS            | Blogger                       | Wix            |                  | Magento, Wordpress, Joomla, Drupal |
 | Multithreading | worker_threads, child_process |                |                           | cluster                   |
 | Async context  | closures, collections, async_hooks |           |                           | zone.js                   |
 | Date and Time  | ES6 + Intl                    |                |                           | moment.js                 |
