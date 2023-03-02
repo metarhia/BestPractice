@@ -44,7 +44,8 @@
 | Mailing        |                               | nodemailer     |                           |                           |
 | Security       | npm audit, snyk               |                |                           |                           |
 | Distributed    | SQRS, Event Sourcing, CRDT    | OT             | Akka                      |                           |
-| Logging        | metalog, pino                 |                |                           |                           |
+| Logging        | metalog, pino                 |                | winston                   |                           |
 | Telemetry      | new relic                     |                |                           |                           |
 | DSL            | markdown, metavm, json5       |                |                           |                           |
 | Design         | Figma                         |                |                           |                           |
+| Utilities      | metautil                      |                |                         | mkdirp, zone.js, node-fetch |
