@@ -16,8 +16,8 @@
 | Auth           | OAuth 2.0 + GoF: strategy     |                |                           | passport, JWT             |
 | Templates      | Template strings, tickplate   |                |                           | EJS                       |
 | CPU intensive  | C, Rust, C++, WASM            |                | Java, C#                  |                           |
-| SQL database   | Postgres                 | SQLite, cassandra, DynamoDB, Elastic | MySQL, Oracle, DB2, MariaDB | MS SQL |
-| NoSQL          | Redis, Kafka                  | Clickhouse     | Memcached                 | Neo4j, MongoDB            |
+| SQL database   | Postgres                 | SQLite | MySQL, Oracle, DB2, MariaDB | MS SQL |
+| NoSQL          | Redis, Kafka                  | Clickhouse, Cassandra, DynamoDB, Elastic | Memcached                 | Neo4j, MongoDB            |
 | CI             | Github Actions                | Travis         | Jenkins                   |                           |
 | Process man.   | Docker                        | k8s, terraform, ansible |                  | Pm2, forever              |
 | CDN            | Cloudflare, Nginx             |                |                           |                           |
